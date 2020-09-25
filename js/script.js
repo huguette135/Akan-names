@@ -20,10 +20,10 @@
         }
     }
 if (selectedValue=="female") {
-    document.getElementById("output").value=girlsNames[weekday];
+    document.getElementById("output").value=girlsNames[weekDay];
 }
 if (selectedValue=="male") {
-    document.getElementById("output").value=boysNames[weekday];
+    document.getElementById("output").value=boysNames[weekDay];
 }
 return false;
     }
