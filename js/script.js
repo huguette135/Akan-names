@@ -8,11 +8,7 @@
         let day = birthday.split("-")[2];        
 
         let weekDay =  ( ( (century/4) -2*century-1) + ((5*Year/4) ) + ((26*(month+1)/10)) + day ) %7
-        // let weekDay = century;
         
-        // console.log(weekDay);
-
-        alert("Hi " + weekDay);
-
-     
+        var boysname=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+        var girlsname=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     
