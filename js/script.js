@@ -7,7 +7,7 @@
         let month = birthday.split("-")[1];
         let day = birthday.split("-")[2];        
 
-        let weekDay = (((century/4)-2*century-1) + ((5*year/4)) + ((26*(month+1)/10)) + day) % 7;
+        let weekDay =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) %7
         // let weekDay = century;
         
         // console.log(weekDay);
