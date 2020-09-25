@@ -11,4 +11,19 @@
         
         var boysname=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
         var girlsname=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-    
+    const rbs = document.getElementsByName("gender");
+    let selectedValue;
+    for (const rb of rbs) {
+        if (rb.checked) {
+            selectedValue =rb.value;
+            break;
+        }
+    }
+if (selectedValue=="female") {
+    document.getElementById("output").value=girlsNames[weekday];
+}
+if (selectedValue=="male") {
+    document.getElementById("output").value=boysNames[weekday];
+}
+return false;
+    }
